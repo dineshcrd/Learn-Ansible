@@ -1,1 +1,4 @@
 Some content
+new one
+pwd
+in case
