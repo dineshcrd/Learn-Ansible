@@ -1,0 +1,3 @@
+[submodule "Bash-Scripting"]
+	path = Bash-Scripting
+	url = https://github.com/cloudtechnology129/Bash-Scripting.git
