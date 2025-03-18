@@ -1,0 +1,18 @@
+git add . ; git commit -n "Bash Scripting ~AutoPush" ; git push
+
+ https://github.com/cloudtechnology129/Bash-Scripting.git
+
+git push
+git push --set-upstream origin master
+git remote set-url origin https://github.com/cloudtechnology129/Bash-Scripting.git
+git push
+
+
+
+git add . ; git commit -m "Bash Scripting ~AutoPush" ; git push
+
+git add . ; git commit -m "Bash Scripting ~AutoPush" ; git push
+
+
+
+git add . ; git commit -m "Bash Scripting ~AutoPush" ; git push
