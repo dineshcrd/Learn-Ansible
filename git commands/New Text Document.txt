@@ -1,6 +1,6 @@
 git add . ; git commit -n "Bash Scripting ~AutoPush" ; git push
 
-
+ https://github.com/cloudtechnology129/Bash-Scripting.git
 
 git push
 git push --set-upstream origin master
