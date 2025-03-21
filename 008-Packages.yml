@@ -1,0 +1,8 @@
+- name: Demo on installing package
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: Installing Frontend
+      ansible.builtin.package:
+       name: nginx
+       state: present
