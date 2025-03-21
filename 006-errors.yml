@@ -5,5 +5,5 @@
       ansible.builtin.shell: ps -ef | grep java
 
     - name: printing a message
-      ansible.builtin.debug: ps -ef | grep java
+      ansible.builtin.debug:
         msg: "Hello world"
