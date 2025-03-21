@@ -8,10 +8,10 @@
   tasks:
    - name: Printing play variable
      ansible.builtin.debug:
-     msg: "value of the url {{ URL }}"
+      msg: "value of the url {{ URL }}"
 
   - name: Printing variables from file
      ansible.builtin.debug:
-     msg: "Current Environment is {{ ENV }} and the dev-lead name is {{ DEV_LEAD }} their value is {{ A }}"
+      msg: "Current Environment is {{ ENV }} and the dev-lead name is {{ DEV_LEAD }} their value is {{ A }}"
      
      
