@@ -17,3 +17,7 @@
         msg: "value of the task variable is {{ URL }}"
       vars:
         URL: "task.google.com"
+
+    - name: printing command variables
+      ansible.builtin.debug:
+        msg: "value of the cli variable is {{ CLIURL }}"
