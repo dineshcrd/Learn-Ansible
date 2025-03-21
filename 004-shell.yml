@@ -7,4 +7,4 @@
       
     - name: primting uptime command
       ansible.builtin.debug:
-      register: "{{ OUT }}"
+      msg: "{{ OUT }}"
