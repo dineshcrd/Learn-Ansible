@@ -1,0 +1,9 @@
+- name: Demo on errors
+  hosts: all
+  tasks:
+    - name: check if java process running or not
+      ansible.builtin.shell: ps -ef | grep java
+
+    - name: printing a message
+      ansible.builtin.shell: ps -ef | grep java
+       msg: "Hello world"
