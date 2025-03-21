@@ -6,4 +6,4 @@
 
     - name: printing a message
       ansible.builtin.debug: ps -ef | grep java
-       msg: "Hello world"
+        msg: "Hello world"
