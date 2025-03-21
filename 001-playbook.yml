@@ -10,3 +10,9 @@
     ansible.builtin.debug:
       msg: "Hello Ansible"
 
+- name: play2
+  hosts: Dev
+  tasks:
+  - name: task1 of play1
+    ansible.builtin.debug:
+      msg: "Ansible is an awesome product"
