@@ -3,4 +3,4 @@
   tasks:
     - name: printing uptime output
       ansible.builtin.debug:
-       msg: "Current node flavor is {{ ansible_distribution }} and version is {{ ansible_distributions_version }}"
+       msg: "Current node flavor is {{ ansible_distribution }} and version is {{ ansible_distribution_version }}"
