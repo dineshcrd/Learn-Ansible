@@ -1,0 +1,6 @@
+- name: Demo on using facts
+  hosts: all
+  tasks:
+    - name: printing uptime output
+      ansible.builtin.debug:
+       msg: "Current node flavor is {{ ansible_distribution }} and version is {{ ansible_distributions_version }}"
