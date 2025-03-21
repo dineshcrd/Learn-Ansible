@@ -18,6 +18,10 @@
       vars:
         URL: "task.google.com"
 
-    - name: printing command variables
+
+- name: Demo on vars on play2
+  hosts: all
+  tasks:
+    - name: printing play variable on play2
       ansible.builtin.debug:
-        msg: "value of the cli variable is {{ CLIURL }}"
+        msg: "Value of the url is {{ URL }}"
