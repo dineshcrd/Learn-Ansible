@@ -4,7 +4,7 @@
   vars:
     URL: "play.google.com"
   vars_files:
-    - dev-vars.yml
+    - prod-vars.yml
   tasks:
     - name: Printing play variable
       ansible.builtin.debug:
