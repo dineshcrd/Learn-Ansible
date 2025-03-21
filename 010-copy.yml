@@ -1,3 +1,4 @@
+---
 - name: copying the file using copy module
   hosts: all
   gather_facts: no
