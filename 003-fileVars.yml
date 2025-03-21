@@ -2,16 +2,14 @@
 - name: Demo on fileVars
   hosts: all
   vars:
-   URL: "play.google.com"
+    URL: "play.google.com"
   vars_files:
     - "{{ env }}-vars.yml"
   tasks:
-   - name: Printing play variable
-     ansible.builtin.debug:
-      msg: "value of the url {{ URL }}"
+    - name: Printing play variable
+      ansible.builtin.debug:
+        msg: "value of the url {{ URL }}"
 
-  - name: Printing variables from file
-     ansible.builtin.debug:
-      msg: "Current Environment is {{ ENV }} and the dev-lead name is {{ DEV_LEAD }} their value is {{ A }}"
-     
-     
+    - name: Printing variables from file
+      ansible.builtin.debug:
+        msg: "Current Environment is {{ ENV }} and the dev-lead name is {{ DEV_LEAD }} their value is {{ A }}"
