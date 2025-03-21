@@ -21,6 +21,7 @@
 
 - name: Demo on vars on play2
   hosts: all
+    URL: "play2.google.com"
   tasks:
     - name: printing play variable on play2
       ansible.builtin.debug:
