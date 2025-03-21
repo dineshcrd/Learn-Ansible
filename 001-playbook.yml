@@ -3,5 +3,5 @@
   hosts: all
   tasks:
   - name: task1 of playl
-    ansible.bultin.debug:
+    ansible.builtin.debug:
       msg: "Hello world"
