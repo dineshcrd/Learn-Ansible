@@ -1,0 +1,9 @@
+---
+- name: printing secrets
+  hosts: all
+  vars:
+    DBPASS: "DevOps321"
+  tasks:
+    - name: printing secret
+      ansible.builtin.debug:
+        msg: "Value of the pass is {{ DBPASS }}"
