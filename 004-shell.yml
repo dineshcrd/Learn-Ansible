@@ -6,5 +6,5 @@
       register: OUT
       
     - name: primting uptime command
-      ansible.builtin.debug: uptime
+      ansible.builtin.debug:
       register: "{{ OUT }}"
