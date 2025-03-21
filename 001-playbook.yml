@@ -1,0 +1,6 @@
+name: playl
+hosts: all
+tasks:
+  - name: task1 os playl
+    ansible.bultin.debug:
+      msg: "Hello world"
