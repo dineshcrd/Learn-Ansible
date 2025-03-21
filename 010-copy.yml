@@ -5,5 +5,5 @@
   tasks:
     - name: copying nginx file
       ansible.builtin.copy:
-      src: nginx.conf
-      dest: /home/ec2-user/nginx.conf
+       src: nginx.conf
+       dest: /home/ec2-user/nginx.conf
