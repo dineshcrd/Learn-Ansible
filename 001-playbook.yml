@@ -1,6 +1,6 @@
-name: playl
+name: play
 hosts: all
 tasks:
-  - name: task1 of playl
+  - name: task1 of play
     ansible.bultin.debug:
       msg: "Hello world"
