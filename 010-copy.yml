@@ -1,0 +1,8 @@
+- name: copying the file using copy module
+  hosts: all
+  gather_facts: no
+  tasks:
+    - name: copying nginx file
+      ansible.builtin.copy:
+      src: nginx.conf
+      dest: /home/ec2-user/nginx.conf
